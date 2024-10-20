@@ -43,10 +43,10 @@
             <!-- Tautan "Masuk" dan "Daftar" di kanan -->
             <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{login}}">Masuk</a>
+                    <a class="nav-link" href="{{route('login')}}">Masuk</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{register}}">Daftar</a>
+                    <a class="nav-link" href="{{route('register')}}">Daftar</a>
                 </li>
             </ul>
         </div>
